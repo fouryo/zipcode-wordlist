@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+main {
+    width: 800px;
+    margin: auto;
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+}
+
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+/*ナビゲーション*/
+
+header {
+    margin-top: 20px;
+    background: #9cf;
+}
+
+footer {
+    background: #9cf;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+nav {
+    width: 800px;
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
+}
+
+nav ul {
+    margin: 0;
+    float: right;
+}
+
+nav li {
+    float: left;
+}
+
+nav li:after {
+    content: "|";
+    color: #fff;
+    padding: 0 10px;
+}
+
+nav li:last-child:after {
+    content: none;
+}
+
+nav a {
+    padding: 0 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/*ボタン*/
+
+.link {
+    margin-top: 60px;
+}
+
+.dl {}
+
+.btn {
+    text-align: center;
+}
+
+.btn a {
+    width: 450px;
+    background: #9cf;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/*見出し*/
+
+h1 {
+    font-size: 24px;
+    border-bottom: 2px dashed;
+    margin: 60px 0 50px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 50px;
+    border-bottom: 1px dashed;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 20px 0 0 20px;
+}
+
+
+/*リスト*/
+
+ul li {
+    list-style: none;
+}
+
+main li {
+    line-height: 2em;
+}
+
+/*変換例*/
+
+#atokExample {
+    margin-left: 60px;
+    border-radius: 5px;
+}
+
+#atokExample td {
+    padding: 5px 10px;
+}
+
+.mandgExample {
+    margin: 0 0 0 20px;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+}
+
+/*注意とお約束*/
+
+.caution > ul {
+    padding: 0;
+}
+
+.caution li {
+    color: red;
+    font-weight: bold;
+}
+
+.caution ul span {
+    text-decoration: underline red;
+}
+
+/*詳細*/
+
+.info > ul > li {
+    list-style-type: disc;
+}
+
+.info a {
+    color: #000;
+}
+
+#atokDate {
+    width: 700px;
+    margin: 10px 0;
+}
+
+.info table {
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+.info caption {
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.info li th,
+.info li td {
+    text-align: center;
+    border: 1px solid;
+    font-size: 12px;
+    padding: 0px 5px;
+}
+
+/*ホーム index.html*/
+
+#introduction {
+    margin: 100px auto 0;
+    width: 650px;
+}
+
+#fixing {
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+}

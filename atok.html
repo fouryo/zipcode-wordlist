@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>事業所個別番号の単語リスト</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <nav>
+            <a href="index.html">事業所個別番号の単語リスト</a>
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li class="hidden"><a href="atok.html">ATOK用</a></li>
+                <li><a href="mime.html">Microsoft IME用</a></li>
+                <li><a href="gime.html">Google日本語入力用</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--main-->
+    <main>
+        <h1>ATOK for Windows用 単語リスト</h1>
+        <section>
+            <p>事業所個別番号を「郵便番号+住所」に変換できるようになります。<br>
+                ATOKの辞書に一括登録してご利用ください。
+            </p>
+            <table id="atokExample">
+                <tr>
+                    <td rowspan="2">100-8924</td>
+                    <td rowspan="2">→</td>
+                    <td>100-8924 東京都千代田区永田町</td>
+                </tr>
+                <tr>
+                    <td>100-8924 千代田区永田町</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>一括登録のおおまかな流れ</h2>
+            <ol>
+                <li>辞書ユーティリティで新規辞書の作成</li>
+                <li>単語ファイルから一括登録
+                </li>
+                <li>ATOKプロパティで郵便番号辞書セットに新規作成した辞書を追加　(忘れがち！)
+                </li>
+            </ol>
+            <p>※詳しくは、ATOKのヘルプなどを参照して下さい</p>
+        </section>
+        <section class="caution">
+            <h2>注意とお約束</h2>
+            <ul>
+                <li>※いかなる損害の責任も負えません。自己責任でご利用ください。
+                    <ul>
+                        <li><span>名刺記載の住所と変換後の住所とが違う場合がありました。<br>入力作業の際は充分にご注意ください！！</span></li>
+                    </ul>
+                </li>
+                <li>※サポートはできません。利用方法がわかる方のみご利用ください。</li>
+                <li>※リクエストにはお応えできません。</li>
+            </ul>
+        </section>
+        <section>
+            <h2>ダウンロード </h2>
+            <div class="link btn"><a href="ATOK事業所単語20181228.zip">ATOK for Window用 単語リスト（2018.12.28版）<br>Zipファイル </a></div>
+        </section>
+        <section class="info">
+            <h2>詳細</h2>
+            <ul>
+                <li>元データは日本郵便株式会社が提供しているデータです。
+                    <ul>
+                        <li><a href="https://www.post.japanpost.jp/zipcode/dl/jigyosyo/index-zip.html">https://www.post.japanpost.jp/zipcode/dl/jigyosyo/index-zip.html</a></li>
+                    </ul>
+                </li>
+                <li>元データを下記のように加工し、タブ区切りテキストに変換しました。
+                    <ul>
+                        <li>
+                            <table id="atokDate">
+                                <tr>
+                                    <th>よみ</th>
+                                    <th>単語</th>
+                                    <th>品詞</th>
+                                    <th>コメント</th>
+                                    <th>自動置換</th>
+                                    <th>置換候補</th>
+                                </tr>
+                                <tr>
+                                    <td>100-8924</td>
+                                    <td>100-8924 東京都千代田区永田町</td>
+                                    <td>固有地名</td>
+                                    <td>個別番号</td>
+                                    <td>しない</td>
+                                    <td>100-8924 千代田区永田町</td>
+                                </tr>
+                            </table>
+                        </li>
+                    </ul>
+                </li>
+                <li>2018年12月28日版の登録単語数は22,105件です。
+                </li>
+                <li>番地等は表記にゆれがあるため除外しました（データ入力作業のルールに最適化するため）。</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+    <p>
+        <a href="#"><i class="fas fa-angle-double-up"></i> TOP</a>
+    </p>
+    </footer>
+</body>
+
+</html>
